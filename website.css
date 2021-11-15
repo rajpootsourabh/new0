@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/banner2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    border: 2px soild rgb(0, 0, 0);
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.active a{
+    background-color: rgb(255, 255, 255);
+    color: black
+}
+.logo img{
+    width: 180px;
+    height: auto;
+    float: left;
+    margin-top: 7px;
+    padding: 0 16px;
+}
+.main ul{
+    float: right;
+    list-style: none;
+    margin-top: 12px;
+}
+ul li{
+    display: inline-block;
+    margin-top: 7px;
+    padding: 0px 12px;
+}
+ul li a{
+text-decoration: none;
+border:transparent;
+padding: 4px 12px;
+color: blanchedalmond;
+font-weight:500;
+font-size: 15px;
+transition: 0.8s;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.title{
+  position: absolute;
+  top: 50%;  
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+  color: white;
+  letter-spacing: 7px;
+}
+.button{
+    position: absolute;
+  top: 59%;  
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 14px;
+
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 7px 13px;
+    /* margin: 0px; */
+    transition: 0.6s ease;
+
+}
+.button a:hover{
+    color: black;
+    background-color: white;
+    font-weight:500;
+    
+
+}
+
